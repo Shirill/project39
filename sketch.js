@@ -68,7 +68,7 @@ function draw(){
   background(backgroundImg);
   //add camera positions
   //camera.position.x=mario.x;
-  camera.position.y=200;
+  camera.position.y=90;
   if(gameState==="play"){
     
      bg.velocityX=-(4+score/10);
